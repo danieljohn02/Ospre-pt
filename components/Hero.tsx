@@ -53,7 +53,7 @@ export default function Hero() {
           <span className="text-slate-300">because you&apos;re worth it</span>
         </h1>
         <p className="text-slate-400 text-base sm:text-lg max-w-xl px-2">
-          Serving Nyack and Rockland County since 1999 — helping athletes, weekend warriors, and everyday people recover faster, move better, and get back to doing what they love.
+          Servicing Rockland County since 2018 — helping athletes, weekend warriors, and everyday people recover faster, move better, and get back to doing what they love.
         </p>
         <a
           href="tel:8456341625"

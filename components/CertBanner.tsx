@@ -29,9 +29,9 @@ export default function CertBanner() {
                 <Image
                   src={cert.src}
                   alt={cert.alt}
-                  width={100}
-                  height={40}
-                  className="h-8 w-auto object-contain grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                  width={140}
+                  height={56}
+                  className="h-12 w-auto object-contain grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
                 />
               </motion.div>
             ))}
