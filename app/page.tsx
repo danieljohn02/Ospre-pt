@@ -4,7 +4,6 @@ import CertBanner from "@/components/CertBanner";
 import Stats from "@/components/Stats";
 import Services from "@/components/Services";
 import HowItWorks from "@/components/HowItWorks";
-import Insurance from "@/components/Insurance";
 import Testimonials from "@/components/Testimonials";
 import Team from "@/components/Team";
 import CTA from "@/components/CTA";
@@ -21,25 +20,24 @@ export default function Home() {
       {/* slate-900 (CertBanner) → slate-900 (Stats top) — seamless, no bridge needed */}
       <Stats />
       {/* Stats bottom is slate-700 → Services is white */}
-      <div className="h-12 bg-gradient-to-b from-slate-700 to-white" />
+      <div className="h-12 bg-gradient-to-b from-brand-mid to-white" />
       <Services />
+      {/* Services (white) → HowItWorks (blue) */}
+      <div className="h-12 bg-gradient-to-b from-white to-brand-deeper" />
       <HowItWorks />
-      {/* HowItWorks is slate-50 → Insurance top is slate-700 */}
-      <div className="h-12 bg-gradient-to-b from-slate-50 to-slate-700" />
-      <Insurance />
-      {/* Insurance bottom is slate-900 → Testimonials is white */}
-      <div className="h-12 bg-gradient-to-b from-slate-900 to-white" />
+      {/* HowItWorks (blue) → Testimonials (white) */}
+      <div className="h-12 bg-gradient-to-b from-brand-deep to-white" />
       <Testimonials />
       <Team />
       {/* Team is slate-50 → CTA is slate-900 */}
-      <div className="h-12 bg-gradient-to-b from-slate-50 to-slate-900" />
+      <div className="h-12 bg-gradient-to-b from-slate-50 to-brand-deeper" />
       <CTA />
       {/* CTA bottom is slate-800 → SocialSection is slate-100 */}
-      <div className="h-12 bg-gradient-to-b from-slate-800 to-slate-100" />
+      <div className="h-12 bg-gradient-to-b from-brand-deep to-slate-100" />
       <SocialSection />
       <ContactForm />
       {/* ContactForm is white → Footer is slate-900 */}
-      <div className="h-10 bg-gradient-to-b from-white to-slate-900" />
+      <div className="h-10 bg-gradient-to-b from-white to-brand-deeper" />
       <Footer />
     </main>
   );

@@ -104,7 +104,7 @@ export default function Services() {
         >
           <a
             href="/services"
-            className="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-full transition-all text-sm min-h-[44px]"
+            className="inline-flex items-center gap-2 bg-brand-deep hover:bg-brand-mid text-white font-semibold px-6 py-3 rounded-full transition-all text-sm min-h-[44px]"
           >
             View All Services <ArrowRight size={15} />
           </a>

@@ -4,7 +4,7 @@ import { Phone, Mail } from "lucide-react";
 
 export default function CTA() {
   return (
-    <section className="py-10 sm:py-16 bg-gradient-to-br from-slate-900 to-slate-800">
+    <section className="py-10 sm:py-16 bg-gradient-to-br from-brand-deeper to-brand-deep">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -29,7 +29,7 @@ export default function CTA() {
               <Mail size={20} />
               Contact Us
             </a>
-            <a href="tel:8456341625" className="flex items-center justify-center gap-3 bg-slate-700 hover:bg-slate-600 text-white rounded-full px-8 py-4 text-base sm:text-lg font-semibold transition-all border border-slate-500 w-full sm:w-auto min-h-[44px]">
+            <a href="tel:8456341625" className="flex items-center justify-center gap-3 bg-brand-mid hover:bg-brand-deep text-white rounded-full px-8 py-4 text-base sm:text-lg font-semibold transition-all border border-brand w-full sm:w-auto min-h-[44px]">
               <Phone size={18} />
               (845) 634-1625
             </a>

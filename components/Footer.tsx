@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 text-slate-300 py-12 sm:py-16">
+    <footer className="bg-brand-deeper text-slate-300 py-12 sm:py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 sm:gap-10 mb-12">
           <div className="md:col-span-2">
@@ -17,11 +17,11 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 mt-6 mb-4">
               <a href="https://www.instagram.com/osprept/" target="_blank" rel="noopener noreferrer" aria-label="OSPRE PT on Instagram"
-                className="w-9 h-9 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:bg-slate-700 transition-colors">
+                className="w-9 h-9 rounded-full bg-brand-deep border border-brand-mid flex items-center justify-center hover:bg-brand-mid transition-colors">
                 <Instagram size={16} className="text-slate-400" aria-hidden="true" />
               </a>
               <a href="https://www.facebook.com/OSPREPT/" target="_blank" rel="noopener noreferrer" aria-label="OSPRE PT on Facebook"
-                className="w-9 h-9 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:bg-slate-700 transition-colors">
+                className="w-9 h-9 rounded-full bg-brand-deep border border-brand-mid flex items-center justify-center hover:bg-brand-mid transition-colors">
                 <Facebook size={16} className="text-slate-400" aria-hidden="true" />
               </a>
             </div>
@@ -93,7 +93,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-500 text-sm text-center md:text-left">
+        <div className="border-t border-brand-deep pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-500 text-sm text-center md:text-left">
           <p>© {new Date().getFullYear()} OSPRE PT. All rights reserved.</p>
           <p>9 Ingalls Street, Central Nyack, NY 10960</p>
         </div>

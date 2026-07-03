@@ -41,7 +41,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="bg-gradient-to-b from-slate-900 to-slate-800">
+    <section ref={sectionRef} className="bg-gradient-to-b from-brand-deeper to-brand-deep">
       {/* Text */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-24 sm:pt-36 pb-16 text-center flex flex-col items-center gap-6">
         <span className="inline-block bg-white/10 text-slate-300 text-xs sm:text-sm font-semibold px-4 py-1.5 rounded-full border border-white/20">
@@ -53,6 +53,7 @@ export default function Hero() {
           <span className="text-slate-300">because you&apos;re worth it</span>
         </h1>
         <p className="text-slate-400 text-base sm:text-lg max-w-xl px-2">
+          <span className="block text-slate-300 font-semibold">Physical Therapy in Nyack, New York</span>
           Servicing Rockland County since 2018 — helping athletes, weekend warriors, and everyday people recover faster, move better, and get back to doing what they love.
         </p>
         <a

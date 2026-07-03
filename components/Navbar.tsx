@@ -6,8 +6,8 @@ import Image from "next/image";
 const navItems = [
   { label: "Home", href: "#" },
   { label: "Services", href: "#services" },
-  { label: "Meet the Team", href: "#team" },
   { label: "Testimonials", href: "#testimonials" },
+  { label: "Meet the Team", href: "#team" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -59,7 +59,7 @@ export default function Navbar() {
             <Phone size={15} />
             <span>(845) 634-1625</span>
           </a>
-          <a href="#contact" className="bg-slate-700 hover:bg-slate-800 text-white font-semibold rounded-full px-6 py-2.5 transition-colors text-sm">
+          <a href="#contact" className="bg-brand-deep hover:bg-brand-deeper text-white font-semibold rounded-full px-6 py-2.5 transition-colors text-sm">
             Contact Us
           </a>
         </div>

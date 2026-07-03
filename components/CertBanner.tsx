@@ -11,7 +11,7 @@ const certs = [
 
 export default function CertBanner() {
   return (
-    <section className="bg-slate-900 border-b border-slate-800 py-5 sm:py-6">
+    <section className="bg-brand-deeper border-b border-brand-deep py-5 sm:py-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
           <p className="text-slate-500 text-xs font-semibold uppercase tracking-widest shrink-0">

@@ -144,7 +144,7 @@ export default function ContactForm() {
                 </div>
                 <Button
                   type="submit"
-                  className="w-full bg-slate-800 hover:bg-slate-700 text-white rounded-xl py-6 text-lg font-semibold"
+                  className="w-full bg-brand-deep hover:bg-brand-mid text-white rounded-xl py-6 text-lg font-semibold"
                 >
                   Submit
                   <Send className="ml-2" size={18} />

@@ -6,6 +6,12 @@
 
 @theme {
   --max-w-container: 1280px;
+
+  /* Brand blue palette — swap --color-brand to the exact hex to retune the whole site */
+  --color-brand: #38a3ff;         /* bright light blue — accent (borders, dividers, highlights) */
+  --color-brand-mid: #2b83e0;     /* mid blue — gradient ends / lighter dark sections */
+  --color-brand-deep: #1a68c4;    /* royal blue — secondary backgrounds & buttons */
+  --color-brand-deeper: #12539f;  /* deep royal blue — primary backgrounds */
 }
 
 @theme inline {
