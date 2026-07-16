@@ -1,5 +1,6 @@
 import { MapPin, Phone, Mail, Clock, Printer, Instagram, Facebook } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -95,7 +96,11 @@ export default function Footer() {
 
         <div className="border-t border-brand-deep pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-500 text-sm text-center md:text-left">
           <p>© {new Date().getFullYear()} OSPRE PT. All rights reserved.</p>
-          <p>9 Ingalls Street, Central Nyack, NY 10960</p>
+          <div className="flex items-center gap-4">
+            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <span className="text-slate-700">•</span>
+            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -1,6 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 const team = [
   {
@@ -65,6 +67,20 @@ export default function Team() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="text-center mt-12"
+        >
+          <Link
+            href="/about"
+            className="inline-flex items-center gap-2 bg-brand-deep hover:bg-brand-mid text-white font-semibold px-6 py-3 rounded-full transition-all text-sm min-h-[44px]"
+          >
+            More About Us <ArrowRight size={15} />
+          </Link>
+        </motion.div>
       </div>
     </section>
   );
