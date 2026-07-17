@@ -40,7 +40,7 @@ export default function Testimonials() {
           viewport={{ once: true }}
           className="text-center mb-8"
         >
-          <span className="text-slate-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-slate-500 font-semibold text-base uppercase tracking-widest">
             Patient Stories
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-3">
@@ -50,7 +50,7 @@ export default function Testimonials() {
             {[1, 2, 3, 4, 5].map((s) => (
               <Star key={s} size={18} className="text-yellow-400 fill-yellow-400" aria-hidden="true" />
             ))}
-            <span className="text-slate-500 font-medium ml-2 text-sm">5.0 · 67 Google Reviews</span>
+            <span className="text-slate-600 font-medium ml-2 text-base">5.0 · 67 Google Reviews</span>
           </div>
         </motion.div>
       </div>
@@ -62,7 +62,7 @@ export default function Testimonials() {
           href="https://www.google.com/search?q=OSPRE+PT+Nyack+NY+reviews"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-500 hover:text-slate-700 text-sm font-medium underline underline-offset-4 transition-colors"
+          className="text-slate-600 hover:text-slate-700 text-base font-medium underline underline-offset-4 transition-colors"
         >
           Read all 67 reviews on Google
         </a>

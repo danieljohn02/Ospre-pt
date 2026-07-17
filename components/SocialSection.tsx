@@ -12,13 +12,13 @@ export default function SocialSection() {
           viewport={{ once: true }}
           className="flex flex-col items-center gap-6"
         >
-          <span className="text-slate-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-slate-500 font-semibold text-base uppercase tracking-widest">
             Stay Connected
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-800">
             Follow Us on Social Media
           </h2>
-          <p className="text-slate-400 max-w-md">
+          <p className="text-slate-500 max-w-md">
             See our latest updates, patient tips, and clinic news on Instagram and Facebook.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mt-2 w-full sm:w-auto">

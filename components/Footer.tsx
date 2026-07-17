@@ -10,20 +10,20 @@ export default function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl font-bold text-white">OSPRE</span>
-              <span className="text-2xl font-light text-slate-400">PT</span>
+              <span className="text-2xl font-light text-slate-300">PT</span>
             </div>
-            <p className="text-slate-400 leading-relaxed max-w-sm">
+            <p className="text-slate-300 leading-relaxed max-w-sm">
               Your Optimum Sports Performance & Rehabilitation Center in Nyack, NY.
               Helping you reach your peak performance at any age.
             </p>
             <div className="flex gap-3 mt-6 mb-4">
               <a href="https://www.instagram.com/osprept/" target="_blank" rel="noopener noreferrer" aria-label="OSPRE PT on Instagram"
                 className="w-9 h-9 rounded-full bg-brand-deep border border-brand-mid flex items-center justify-center hover:bg-brand-mid transition-colors">
-                <Instagram size={16} className="text-slate-400" aria-hidden="true" />
+                <Instagram size={16} className="text-slate-300" aria-hidden="true" />
               </a>
               <a href="https://www.facebook.com/OSPREPT/" target="_blank" rel="noopener noreferrer" aria-label="OSPRE PT on Facebook"
                 className="w-9 h-9 rounded-full bg-brand-deep border border-brand-mid flex items-center justify-center hover:bg-brand-mid transition-colors">
-                <Facebook size={16} className="text-slate-400" aria-hidden="true" />
+                <Facebook size={16} className="text-slate-300" aria-hidden="true" />
               </a>
             </div>
             <div className="flex flex-wrap items-center gap-4 mt-2">
@@ -50,22 +50,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3">
-                <MapPin size={16} className="text-slate-400 mt-0.5 shrink-0" />
-                <span className="text-slate-400">9 Ingalls Street, Central Nyack, NY 10960</span>
+                <MapPin size={16} className="text-slate-300 mt-0.5 shrink-0" />
+                <span className="text-slate-300">9 Ingalls Street, Central Nyack, NY 10960</span>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={16} className="text-slate-400 shrink-0" />
-                <a href="tel:8456341625" className="text-slate-400 hover:text-white transition-colors">
+                <Phone size={16} className="text-slate-300 shrink-0" />
+                <a href="tel:8456341625" className="text-slate-300 hover:text-white transition-colors">
                   (845) 634-1625
                 </a>
               </li>
               <li className="flex items-center gap-3">
-                <Printer size={16} className="text-slate-400 shrink-0" />
-                <span className="text-slate-400">(845) 215-0193</span>
+                <Printer size={16} className="text-slate-300 shrink-0" />
+                <span className="text-slate-300">(845) 215-0193</span>
               </li>
               <li className="flex items-center gap-3">
-                <Mail size={16} className="text-slate-400 shrink-0" />
-                <a href="mailto:osprept@optimum.net" className="text-slate-400 hover:text-white transition-colors">
+                <Mail size={16} className="text-slate-300 shrink-0" />
+                <a href="mailto:osprept@optimum.net" className="text-slate-300 hover:text-white transition-colors">
                   osprept@optimum.net
                 </a>
               </li>
@@ -74,10 +74,10 @@ export default function Footer() {
 
           <div>
             <h4 className="text-white font-semibold mb-4 flex items-center gap-2">
-              <Clock size={16} className="text-slate-400" />
+              <Clock size={16} className="text-slate-300" />
               Hours
             </h4>
-            <ul className="space-y-2 text-slate-400">
+            <ul className="space-y-2 text-slate-300">
               <li className="flex justify-between gap-4">
                 <span>Mon / Wed / Fri</span>
                 <span className="text-slate-300 font-medium">6am – 4pm</span>
@@ -88,13 +88,13 @@ export default function Footer() {
               </li>
               <li className="flex justify-between gap-4">
                 <span>Sat / Sun</span>
-                <span className="text-slate-500">Closed</span>
+                <span className="text-slate-300">Closed</span>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-brand-deep pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-500 text-sm text-center md:text-left">
+        <div className="border-t border-brand-deep pt-8 flex flex-col md:flex-row justify-between items-center gap-3 text-slate-300 text-base text-center md:text-left">
           <p>© {new Date().getFullYear()} OSPRE PT. All rights reserved.</p>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

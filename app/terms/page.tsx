@@ -18,12 +18,12 @@ export default function TermsPage() {
         <div className="max-w-3xl mx-auto text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-sm font-medium mb-8 min-h-[44px]"
+            className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-base font-medium mb-8 min-h-[44px]"
           >
             <ArrowLeft size={16} /> Back to Home
           </Link>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Terms of Service</h1>
-          <p className="text-slate-300 mt-4 text-sm sm:text-base">Last updated: July 15, 2026</p>
+          <p className="text-slate-300 mt-4 text-base sm:text-base">Last updated: July 15, 2026</p>
         </div>
       </div>
 

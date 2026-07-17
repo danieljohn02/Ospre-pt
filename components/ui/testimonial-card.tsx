@@ -51,7 +51,7 @@ export function TestimonialCard({
       </div>
 
       {/* Review text */}
-      <p className="text-sm sm:text-base text-slate-600 leading-relaxed flex-1">
+      <p className="text-base sm:text-base text-slate-600 leading-relaxed flex-1">
         &ldquo;{text}&rdquo;
       </p>
 
@@ -64,7 +64,7 @@ export function TestimonialCard({
         </Avatar>
         <div>
           <p className="font-bold text-slate-900 text-sm leading-tight">{author.name}</p>
-          <p className="text-slate-400 text-xs mt-0.5">{author.handle}</p>
+          <p className="text-slate-500 text-sm mt-0.5">{author.handle}</p>
         </div>
       </div>
     </Card>

@@ -57,13 +57,13 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-8"
         >
-          <span className="text-slate-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-slate-500 font-semibold text-base uppercase tracking-widest">
             What We Offer
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-3">
             Specialized Programs for Every Need
           </h2>
-          <p className="text-slate-400 mt-3 max-w-2xl mx-auto text-sm sm:text-base">
+          <p className="text-slate-500 mt-3 max-w-2xl mx-auto text-base sm:text-base">
             From elite athletes to everyday movers, we have a program designed
             specifically for your goals and challenges.
           </p>
@@ -86,9 +86,9 @@ export default function Services() {
                 </div>
                 <p className="text-lg font-bold text-slate-800 leading-tight">{service.title}</p>
               </div>
-              <p className="text-slate-400 text-base leading-snug flex-1">{service.description}</p>
+              <p className="text-slate-500 text-base leading-snug flex-1">{service.description}</p>
               <div className="flex justify-end mt-2">
-                <span className="flex items-center gap-1.5 text-slate-400 text-sm font-semibold group-hover:text-slate-600 group-hover:gap-2.5 transition-all">
+                <span className="flex items-center gap-1.5 text-slate-500 text-base font-semibold group-hover:text-slate-600 group-hover:gap-2.5 transition-all">
                   Learn more <ArrowRight size={13} />
                 </span>
               </div>

@@ -125,12 +125,12 @@ export default function ServicesPage() {
         <div className="max-w-4xl mx-auto text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-slate-400 hover:text-white transition-colors text-sm font-medium mb-8 min-h-[44px]"
+            className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-base font-medium mb-8 min-h-[44px]"
           >
             <ArrowLeft size={16} /> Back to Home
           </Link>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Our Services</h1>
-          <p className="text-slate-400 mt-4 text-base sm:text-lg max-w-2xl mx-auto">
+          <p className="text-slate-300 mt-4 text-base sm:text-lg max-w-2xl mx-auto">
             Every program at OSPRE PT is built around you — your goals, your body, and your life.
             Practicing since 1999, Sak delivers individualized care you won&apos;t find anywhere else.
           </p>
@@ -160,11 +160,11 @@ export default function ServicesPage() {
                     <service.icon size={24} className="text-slate-600" />
                   </div>
                   <div>
-                    <p className="text-slate-400 text-sm font-semibold uppercase tracking-widest mb-1">
+                    <p className="text-slate-500 text-base font-semibold uppercase tracking-widest mb-1">
                       Service {String(i + 1).padStart(2, "0")}
                     </p>
                     <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">{service.title}</h2>
-                    <p className="text-slate-500 text-base sm:text-lg mt-1 italic">{service.tagline}</p>
+                    <p className="text-slate-600 text-base sm:text-lg mt-1 italic">{service.tagline}</p>
                   </div>
                 </div>
 
@@ -174,7 +174,7 @@ export default function ServicesPage() {
                   <h3 className="font-bold text-slate-800 mb-4">What You Get</h3>
                   <ul className="space-y-3">
                     {service.benefits.map((b) => (
-                      <li key={b} className="flex items-start gap-3 text-slate-500 text-sm">
+                      <li key={b} className="flex items-start gap-3 text-slate-600 text-base">
                         <span className="w-1.5 h-1.5 rounded-full bg-slate-400 mt-2 shrink-0" />
                         {b}
                       </li>
@@ -184,7 +184,7 @@ export default function ServicesPage() {
 
                 <div className="bg-slate-50 rounded-2xl p-6">
                   <h3 className="font-bold text-slate-800 mb-3">Who Is This For?</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed">{service.who}</p>
+                  <p className="text-slate-600 text-base leading-relaxed">{service.who}</p>
 
                   <a
                     href="tel:8456341625"
@@ -203,7 +203,7 @@ export default function ServicesPage() {
       {/* Bottom CTA */}
       <div className="bg-brand-deeper py-14 sm:py-16 px-4 sm:px-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">Not sure which service is right for you?</h2>
-        <p className="text-slate-400 mt-3 max-w-lg mx-auto text-sm sm:text-base">
+        <p className="text-slate-300 mt-3 max-w-lg mx-auto text-base">
           Call us and we&apos;ll help you figure out the best starting point.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">

@@ -12,7 +12,7 @@ export default function CTA() {
           viewport={{ once: true }}
           className="flex flex-col items-center gap-6"
         >
-          <span className="inline-block bg-white/10 text-slate-300 text-sm font-semibold px-4 py-1.5 rounded-full border border-white/20">
+          <span className="inline-block bg-white/10 text-slate-300 text-base font-semibold px-4 py-1.5 rounded-full border border-white/20">
             Start Today — No Commitment
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight">
@@ -20,7 +20,7 @@ export default function CTA() {
             <br />
             and feel stronger?
           </h2>
-          <p className="text-slate-400 text-base sm:text-lg max-w-xl">
+          <p className="text-slate-300 text-base sm:text-lg max-w-xl">
             Fill out our service interest form and we&apos;ll build a plan
             around your life, your goals, and your body.
           </p>

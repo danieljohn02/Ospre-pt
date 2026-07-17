@@ -25,7 +25,7 @@ export default function Stats() {
             >
               <stat.icon size={28} className="mb-2 sm:mb-3 text-slate-300" />
               <span className="text-3xl sm:text-4xl font-bold">{stat.value}</span>
-              <span className="text-slate-400 mt-1 font-medium text-sm sm:text-base">{stat.label}</span>
+              <span className="text-slate-300 mt-1 font-medium text-base sm:text-base">{stat.label}</span>
             </motion.div>
           ))}
         </div>

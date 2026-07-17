@@ -58,7 +58,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto text-center">
           <Link
             href="/"
-            className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-sm font-medium mb-8 min-h-[44px]"
+            className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-base font-medium mb-8 min-h-[44px]"
           >
             <ArrowLeft size={16} /> Back to Home
           </Link>
@@ -172,7 +172,7 @@ export default function AboutPage() {
       {/* Bottom CTA */}
       <div className="bg-brand-deeper py-14 sm:py-16 px-4 sm:px-6 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold text-white">Ready to reach your peak?</h2>
-        <p className="text-slate-300 mt-3 max-w-lg mx-auto text-sm sm:text-base">
+        <p className="text-slate-300 mt-3 max-w-lg mx-auto text-base sm:text-base">
           Call us and we&apos;ll help you find the right starting point.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">

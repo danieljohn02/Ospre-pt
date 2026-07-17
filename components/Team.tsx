@@ -31,7 +31,7 @@ export default function Team() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-slate-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-slate-500 font-semibold text-base uppercase tracking-widest">
             Our Experts
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-3">
@@ -53,13 +53,13 @@ export default function Team() {
                 <Image src={member.image} alt={member.name} width={192} height={192} className="w-full h-full object-cover object-center" />
               </div>
               <h3 className="text-2xl font-bold text-slate-900 text-center">{member.name}</h3>
-              <p className="text-slate-500 font-medium mt-1 text-center">{member.role}</p>
-              <p className="text-slate-400 text-sm mt-4 leading-relaxed text-center">
+              <p className="text-slate-600 font-medium mt-1 text-center">{member.role}</p>
+              <p className="text-slate-500 text-base mt-4 leading-relaxed text-center">
                 {member.bio}
               </p>
               <div className="flex flex-wrap justify-center gap-2 mt-5">
                 {member.certs.map((cert) => (
-                  <span key={cert} className="text-xs bg-slate-100 text-slate-500 px-3 py-1 rounded-full font-medium">
+                  <span key={cert} className="text-sm bg-slate-100 text-slate-600 px-3 py-1 rounded-full font-medium">
                     {cert}
                   </span>
                 ))}

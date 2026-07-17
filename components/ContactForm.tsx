@@ -38,13 +38,13 @@ export default function ContactForm() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="text-slate-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-slate-500 font-semibold text-base uppercase tracking-widest">
             Get In Touch
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-3">
             Service Interest Form
           </h2>
-          <p className="text-slate-400 mt-4 max-w-xl mx-auto">
+          <p className="text-slate-500 mt-4 max-w-xl mx-auto">
             No referral needed. Fill out the form and we&apos;ll get back to you within 24 hours.
           </p>
         </motion.div>
@@ -62,7 +62,7 @@ export default function ContactForm() {
                   <Send size={28} className="text-slate-600" />
                 </div>
                 <h3 className="text-2xl font-bold text-slate-800">Message Sent!</h3>
-                <p className="text-slate-400">We&apos;ll be in touch within 24 hours to set up an appointment.</p>
+                <p className="text-slate-500">We&apos;ll be in touch within 24 hours to set up an appointment.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
@@ -75,7 +75,7 @@ export default function ContactForm() {
                 )}
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
-                    <label htmlFor="first-name" className="block text-sm font-medium text-slate-600 mb-2">First Name</label>
+                    <label htmlFor="first-name" className="block text-base font-medium text-slate-600 mb-2">First Name</label>
                     <input
                       id="first-name"
                       type="text"
@@ -86,7 +86,7 @@ export default function ContactForm() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="last-name" className="block text-sm font-medium text-slate-600 mb-2">Last Name</label>
+                    <label htmlFor="last-name" className="block text-base font-medium text-slate-600 mb-2">Last Name</label>
                     <input
                       id="last-name"
                       type="text"
@@ -98,7 +98,7 @@ export default function ContactForm() {
                   </div>
                 </div>
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-600 mb-2">Email</label>
+                  <label htmlFor="email" className="block text-base font-medium text-slate-600 mb-2">Email</label>
                   <input
                     id="email"
                     type="email"
@@ -109,7 +109,7 @@ export default function ContactForm() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-slate-600 mb-2">Phone</label>
+                  <label htmlFor="phone" className="block text-base font-medium text-slate-600 mb-2">Phone</label>
                   <input
                     id="phone"
                     type="tel"
@@ -119,7 +119,7 @@ export default function ContactForm() {
                   />
                 </div>
                 <div>
-                  <label htmlFor="service" className="block text-sm font-medium text-slate-600 mb-2">What brings you in?</label>
+                  <label htmlFor="service" className="block text-base font-medium text-slate-600 mb-2">What brings you in?</label>
                   <select id="service" name="service" required className="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-600 focus:outline-none focus:ring-2 focus:ring-slate-300 transition bg-white">
                     <option value="">Select a service</option>
                     <option>Movement Testing</option>
@@ -133,7 +133,7 @@ export default function ContactForm() {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-600 mb-2">Message (optional)</label>
+                  <label htmlFor="message" className="block text-base font-medium text-slate-600 mb-2">Message (optional)</label>
                   <textarea
                     id="message"
                     rows={4}
@@ -167,7 +167,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-semibold text-slate-800">Location</p>
-                  <p className="text-slate-500 mt-1">9 Ingalls Street<br />Central Nyack, NY 10960</p>
+                  <p className="text-slate-600 mt-1">9 Ingalls Street<br />Central Nyack, NY 10960</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -176,7 +176,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-semibold text-slate-800">Phone</p>
-                  <a href="tel:8456341625" className="text-slate-500 hover:text-slate-700 mt-1 block transition-colors">
+                  <a href="tel:8456341625" className="text-slate-600 hover:text-slate-700 mt-1 block transition-colors">
                     (845) 634-1625
                   </a>
                 </div>
@@ -187,7 +187,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-semibold text-slate-800">Hours</p>
-                  <div className="text-slate-500 mt-1 space-y-1">
+                  <div className="text-slate-600 mt-1 space-y-1">
                     <p>Mon / Wed / Fri: 6am – 4pm</p>
                     <p>Tue / Thu: 10am – 7pm</p>
                     <p>Sat / Sun: Closed</p>
