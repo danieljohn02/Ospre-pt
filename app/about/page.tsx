@@ -21,7 +21,7 @@ const team = [
     name: "Shoba Mammen, MSPT",
     role: "Licensed Physical Therapist",
     image: "/shoba.jpg",
-    bio: "Practicing since 1999, Shoba holds degrees in Integrative Neuroscience (Binghamton University) and a Master's in Physical Therapy from the University of Rhode Island. She specializes in orthopedic physical therapy with a focus on spine rehabilitation, with certifications in Sacroiliac joint specialization (Hesch Institute), Mat Pilates (Polestar), LSVT BIG for movement disorders, and the Infinity Method.",
+    bio: "Shoba Mammen is a highly experienced physical therapist. She earned her B.S. in Integrative Neuroscience from Binghamton University and completed her Master of Science in Physical Therapy from the University of Rhode Island in 1999. With decades of clinical experience across outpatient orthopedic and home care settings, she specializes in orthopedics with a focus on spine rehabilitation. Committed to ongoing professional development, her certifications include Sacroiliac (SI) joint specialization through the Hesch Institute, Mat Pilates through Polestar, LSVT BIG for movement disorders, and the Infinity Method from the Dr. Madsen clinic in Iowa. Her holistic, patient-centered approach combines evidence-based care with a deep understanding of movement and neurological integration to help patients restore function, reduce pain, and improve overall quality of life.",
   },
 ];
 

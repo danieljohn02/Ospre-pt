@@ -65,11 +65,11 @@ export default function Navbar() {
         </div>
 
         <button
-          className={`md:hidden w-11 h-11 flex items-center justify-center rounded-lg ${scrolled ? "text-slate-700" : "text-white"}`}
+          className={`md:hidden w-12 h-12 flex items-center justify-center rounded-lg ${scrolled ? "text-slate-700" : "text-white"}`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
-          {menuOpen ? <X size={24} /> : <Menu size={24} />}
+          {menuOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
       </div>
 
