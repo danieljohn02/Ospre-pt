@@ -34,7 +34,7 @@ export default function Navbar() {
             alt="OSPRE PT"
             width={200}
             height={64}
-            className="h-10 sm:h-14 w-auto object-contain"
+            className="h-12 sm:h-16 w-auto object-contain"
             priority
           />
         </a>
