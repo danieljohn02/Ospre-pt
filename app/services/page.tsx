@@ -22,7 +22,7 @@ const services = [
   {
     icon: Dumbbell,
     slug: "sports-conditioning",
-    image: "/sports conditioning.JPG",
+    image: "/sports conditioning.PNG",
     title: "Sports Conditioning",
     tagline: "Train smarter, perform better, recover faster",
     description:
@@ -54,7 +54,7 @@ const services = [
   {
     icon: Brain,
     slug: "balance-programs",
-    image: "/Balance Progrmas.JPG",
+    image: "/balance programs.jpg",
     title: "Balance Programs",
     tagline: "Regain confidence and stability in your daily life",
     description:

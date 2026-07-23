@@ -44,10 +44,10 @@ export default function Hero() {
     <section ref={sectionRef} className="bg-gradient-to-b from-brand-deeper to-brand-deep">
       {/* Text */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-24 sm:pt-36 pb-16 text-center flex flex-col items-center gap-6">
-        <span className="inline-block bg-white/10 text-slate-100 text-base sm:text-lg font-semibold px-5 py-2 rounded-full border border-white/20">
+        <span className="inline-block bg-white/10 text-slate-100 text-lg sm:text-xl font-semibold px-6 py-2.5 rounded-full border border-white/20">
           Optimum Sports Performance & Rehabilitation
         </span>
-        <h1 className="text-[1.75rem] sm:text-5xl md:text-6xl font-bold text-white leading-tight">
+        <h1 className="text-[1.6rem] sm:text-4xl md:text-5xl font-bold text-white leading-tight">
           Investing in your health
           <br />
           <span className="text-white">because you&apos;re worth it</span>
