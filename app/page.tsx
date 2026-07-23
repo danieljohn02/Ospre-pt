@@ -10,8 +10,10 @@ import CTA from "@/components/CTA";
 import SocialSection from "@/components/SocialSection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
+import { getGoogleRating } from "@/lib/reviews";
 
-export default function Home() {
+export default async function Home() {
+  const { rating, total } = await getGoogleRating();
   return (
     <main>
       <Navbar />
@@ -27,7 +29,7 @@ export default function Home() {
       <HowItWorks />
       {/* HowItWorks (blue) → Testimonials (white) */}
       <div className="h-12 bg-gradient-to-b from-brand-deep to-white" />
-      <Testimonials />
+      <Testimonials rating={rating} total={total} />
       <Team />
       {/* Team is slate-50 → CTA is slate-900 */}
       <div className="h-12 bg-gradient-to-b from-slate-50 to-brand-deeper" />

@@ -30,7 +30,13 @@ const testimonials = [
   },
 ];
 
-export default function Testimonials() {
+export default function Testimonials({
+  rating = 5.0,
+  total = 67,
+}: {
+  rating?: number;
+  total?: number;
+}) {
   return (
     <section id="testimonials" className="py-10 sm:py-16 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -46,11 +52,11 @@ export default function Testimonials() {
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-800 mt-3">
             Real Results, Real People
           </h2>
-          <div className="flex items-center justify-center gap-2 mt-4" aria-label="5 out of 5 stars">
+          <div className="flex items-center justify-center gap-2 mt-4" aria-label={`${rating.toFixed(1)} out of 5 stars`}>
             {[1, 2, 3, 4, 5].map((s) => (
               <Star key={s} size={18} className="text-yellow-400 fill-yellow-400" aria-hidden="true" />
             ))}
-            <span className="text-slate-600 font-medium ml-2 text-base">5.0 · 67 Google Reviews</span>
+            <span className="text-slate-600 font-medium ml-2 text-base">{rating.toFixed(1)} · {total} Google Reviews</span>
           </div>
         </motion.div>
       </div>

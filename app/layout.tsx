@@ -124,13 +124,6 @@ export default function RootLayout({
               ],
               medicalSpecialty: "PhysicalTherapy",
               priceRange: "$$",
-              aggregateRating: {
-                "@type": "AggregateRating",
-                ratingValue: "5",
-                reviewCount: "67",
-                bestRating: "5",
-                worstRating: "1",
-              },
             }),
           }}
         />
