@@ -1,0 +1,30 @@
+name: Scheduled site rebuild
+
+# Refreshes the live Google rating/review count by triggering a Netlify deploy
+# on a schedule (the rating is fetched at build time). Also runnable manually.
+#
+# Setup (one-time):
+#   1. Netlify → Site settings → Build & deploy → Build hooks → Add build hook
+#      (branch: main). Copy the URL it gives you.
+#   2. GitHub → repo Settings → Secrets and variables → Actions → New repository
+#      secret → name: NETLIFY_BUILD_HOOK, value: that URL.
+#
+# To change the cadence, edit the cron line below (currently every 3 days).
+
+on:
+  schedule:
+    - cron: "0 12 */3 * *" # 12:00 UTC, every 3 days
+  workflow_dispatch: {} # manual "Run workflow" button
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify build hook
+        run: |
+          if [ -z "${{ secrets.NETLIFY_BUILD_HOOK }}" ]; then
+            echo "NETLIFY_BUILD_HOOK secret is not set — skipping (add it to enable scheduled rebuilds)."
+            exit 0
+          fi
+          curl -fsSL -X POST -d '{}' "${{ secrets.NETLIFY_BUILD_HOOK }}"
+          echo "Triggered Netlify rebuild."
