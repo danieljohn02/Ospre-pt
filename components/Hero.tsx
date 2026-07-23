@@ -44,7 +44,7 @@ export default function Hero() {
     <section ref={sectionRef} className="bg-gradient-to-b from-brand-deeper to-brand-deep">
       {/* Text */}
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-24 sm:pt-36 pb-16 text-center flex flex-col items-center gap-6">
-        <span className="inline-block bg-white/10 text-slate-100 text-lg sm:text-xl font-semibold px-6 py-2.5 rounded-full border border-white/20">
+        <span className="inline-block bg-white/10 text-slate-100 text-lg sm:text-2xl md:text-3xl font-semibold px-6 sm:px-8 py-2.5 sm:py-3 rounded-full border border-white/20">
           Optimum Sports Performance & Rehabilitation
         </span>
         <h1 className="text-[1.6rem] sm:text-4xl md:text-5xl font-bold text-white leading-tight">
