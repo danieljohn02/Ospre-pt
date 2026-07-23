@@ -124,7 +124,7 @@ export default function ServicesPage() {
       <div className="bg-gradient-to-b from-brand-deeper to-brand-deep py-20 sm:py-24 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
           <Link
-            href="/"
+            href="/#services"
             className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-base font-medium mb-8 min-h-[44px]"
           >
             <ArrowLeft size={16} /> Back to Home
@@ -215,7 +215,7 @@ export default function ServicesPage() {
             (845) 634-1625
           </a>
           <Link
-            href="/"
+            href="/#services"
             className="inline-flex items-center justify-center gap-2 border border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-full transition-all min-h-[44px]"
           >
             <ArrowLeft size={16} />

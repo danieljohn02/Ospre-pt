@@ -57,7 +57,7 @@ export default function AboutPage() {
       <div className="bg-gradient-to-b from-brand-deeper to-brand-deep py-20 sm:py-24 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
           <Link
-            href="/"
+            href="/#team"
             className="inline-flex items-center gap-2 text-slate-300 hover:text-white transition-colors text-base font-medium mb-8 min-h-[44px]"
           >
             <ArrowLeft size={16} /> Back to Home
@@ -96,7 +96,9 @@ export default function AboutPage() {
           {team.map((member, i) => (
             <div
               key={member.name}
-              className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 sm:gap-12 items-start"
+              className={`grid grid-cols-1 gap-8 sm:gap-12 items-start ${
+                i % 2 === 1 ? "md:grid-cols-[1fr_280px]" : "md:grid-cols-[280px_1fr]"
+              }`}
             >
               <div
                 className={`relative aspect-[4/5] w-full max-w-xs mx-auto md:mx-0 overflow-hidden rounded-3xl shadow-lg ${
@@ -184,7 +186,7 @@ export default function AboutPage() {
             (845) 634-1625
           </a>
           <Link
-            href="/"
+            href="/#team"
             className="inline-flex items-center justify-center gap-2 border border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-full transition-all min-h-[44px]"
           >
             <ArrowLeft size={16} />
