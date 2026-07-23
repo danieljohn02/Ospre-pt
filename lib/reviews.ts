@@ -16,6 +16,18 @@ export type GoogleRating = { rating: number; total: number };
 // Last known-good values — safe fallback if the API can't be reached at build time.
 export const FALLBACK_RATING: GoogleRating = { rating: 5.0, total: 67 };
 
+// Fallback link (Maps search) if the Place ID isn't set at build time.
+const FALLBACK_REVIEWS_URL =
+  "https://www.google.com/maps/search/?api=1&query=OSPRE%20PT%20Nyack%20NY";
+
+// Direct link to the business's Google Maps listing, built from the Place ID.
+export function getReviewsUrl(): string {
+  const placeId = process.env.GOOGLE_PLACE_ID;
+  return placeId
+    ? `https://www.google.com/maps/place/?q=place_id:${placeId}`
+    : FALLBACK_REVIEWS_URL;
+}
+
 export async function getGoogleRating(): Promise<GoogleRating> {
   const key = process.env.GOOGLE_PLACES_API_KEY;
   const placeId = process.env.GOOGLE_PLACE_ID;

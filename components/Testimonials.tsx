@@ -33,9 +33,11 @@ const testimonials = [
 export default function Testimonials({
   rating = 5.0,
   total = 67,
+  reviewsUrl = "https://www.google.com/maps/search/?api=1&query=OSPRE%20PT%20Nyack%20NY",
 }: {
   rating?: number;
   total?: number;
+  reviewsUrl?: string;
 }) {
   return (
     <section id="testimonials" className="py-10 sm:py-16 bg-white overflow-hidden">
@@ -65,12 +67,12 @@ export default function Testimonials({
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-6 flex justify-center">
         <a
-          href="https://www.google.com/search?q=OSPRE+PT+Nyack+NY+reviews"
+          href={reviewsUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="text-slate-600 hover:text-slate-700 text-base font-medium underline underline-offset-4 transition-colors"
         >
-          Read all 67 reviews on Google
+          Read all {total} reviews on Google
         </a>
       </div>
     </section>
